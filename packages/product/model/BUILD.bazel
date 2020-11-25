@@ -1,0 +1,9 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = ["model.go"],
+    importpath = "github.com/spiritsquare/go-commerce/packages/product/model",
+    visibility = ["//visibility:public"],
+    deps = ["@io_gorm_gorm//:go_default_library"],
+)

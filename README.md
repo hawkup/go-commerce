@@ -8,10 +8,10 @@ Run this command to install Bazel
 Run command for setup file
 `$ bazel run //:gazelle`
 
+## Update gazelle:prefix on BUILD.bazel
+
 ## Config use go.mod
 `$ bazel run //:gazelle -- update-repos -from_file=go.mod -to_macro=deps.bzl%go_dependencies`
-
-## Update importpath on BUILD.bazel
 
 ## Build
 `bazel build //packages/order:order`
