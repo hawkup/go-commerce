@@ -1,6 +1,9 @@
 # GO commerce
 
 ## Tool
+Run this command to install goenv
+`$ brew install --HEAD goenv` and then run `$ goenv install` for install specific go version from .go-version
+
 Run this command to install Bazel
 `$ brew install bazel`
 
